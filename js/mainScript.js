@@ -5,7 +5,7 @@ $(document).ready(function(){
 	$('#btn').click(function(){
 		
 var city = $('#city').val(); // get text value
-	$.ajax("http://api.apixu.com/v1/current.json?key=9b72b8923a6a4908a76185920191806",{
+	$.ajax("https://api.apixu.com/v1/current.json?key=9b72b8923a6a4908a76185920191806",{
 	method: "GET",
 	data: {
 			q: city,
