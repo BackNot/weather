@@ -128,7 +128,7 @@ var city = $('#city').val(); // get text value
 		}
 	}
 	var img = data.current.condition.icon.substring(2);
-	$("#icon").html("<img src='http://"+img+"'></img>");
+	$("#icon").html("<img src='https://"+img+"'></img>");
 	$("#res").html("<span class='lead'>It's <strong>"+data.current.temp_c+"&#8451;</strong> in <strong>"+city+"</strong>.It's <strong>"+data.current.condition.text+"</strong>.<br> Wind speed: <strong>"+data.current.wind_kph+" </strong> km/h"
 	+"<br> Humidity: <strong>"+data.current.humidity+" </strong> %"+"<br> </span>");
 	},
