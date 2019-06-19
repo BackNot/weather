@@ -1,0 +1,122 @@
+html,body {
+	height: 100%;
+	width: 100%;
+	
+}
+.content {
+	height: 100%;
+	width: 100%;
+}
+.nPartlyCloudy
+{
+	background-image: url("../imgs/night.gif");	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.nClear
+{
+	background-image: url("../imgs/night-clear.gif");	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.nThunder
+{
+	background-image: url("../imgs/night-thunder.gif");	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.nMist
+{
+	background-image: url("../imgs/night-mist.gif");	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.nSnow
+{
+	background-image: url("../imgs/night-snow.gif");	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.nRain
+{
+	background-image: url("../imgs/night-rain.gif");	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.dSunny
+{
+	background-image: url("../imgs/day-clear.gif");	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.dCloudy
+{
+	background-image: url("../imgs/day-cloudy.gif");	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.dSnow
+{
+	background-image: url("../imgs/day-snow.gif");	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.dMist
+{
+	background-image: url("../imgs/day-mist.gif");	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.dRain
+{
+	background-image: url("../imgs/day-rain.gif");	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.dThunder
+{
+	background-image: url("../imgs/day-thunder.gif");	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.nText
+{
+background-color: lightgray;
+}
+.container-fluid {
+	height: 100%;
+	width: 100%;
+	background-color:lightblue;
+}
+.rowBG {
+	margin: 0 auto;
+}
+#city {
+	height: 55px;
+	width: 600px;
+	border: none;
+	border-radius: 10px;
+	padding-left: 20px;
+}
+#btn {
+	height: 30px;
+	width: 75px;
+}
