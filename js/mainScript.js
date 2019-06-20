@@ -64,7 +64,7 @@ var city = $('#city').val(); // get text value
 		|| condition == "Patchy light snow with thunder" || condition == "Moderate or heavy snow with thunder")
 		{
 			
-			// mist night
+			// thunder
 			$('.container-fluid').removeClass().addClass("container-fluid d-flex nThunder");
 			$('#res').addClass("nText");
 
@@ -77,7 +77,7 @@ var city = $('#city').val(); // get text value
 		
 		if(condition == "Partly cloudy" || condition == "Cloudy" || condition == "Overcast" || condition == "Patchy freezing drizzle possible" )
 		{
-			// its cloudy night
+			// its cloudy day
 			$('.container-fluid').removeClass().addClass("container-fluid d-flex dCloudy");
 			$('#res').addClass("nText");
 		}
@@ -86,21 +86,21 @@ var city = $('#city').val(); // get text value
 		|| condition == "Heavy snow" || condition == "Ice pellets" || condition == "Light snow showers" || condition == "Moderate or heavy snow showers"
 		|| condition == "Light showers of ice pellets" || condition == "Moderate or heavy showers of ice pellets")
 		{
-			// snowy night
+			// snowy day
 			$('.container-fluid').removeClass().addClass("container-fluid d-flex dSnow");
 			$('#res').addClass("nText");
 
 		}
 		if(condition == "Mist" || condition == "Fog" || condition == "Freezing fog")
 		{
-			// mist night
+			// mist day
 			$('.container-fluid').removeClass().addClass("container-fluid d-flex dMist");
 			$('#res').addClass("nText");
 
 		}
 		if(condition == "Sunny")
 		{
-			// clear night
+			// clear day
 			$('.container-fluid').removeClass().addClass("container-fluid d-flex dSunny");
 			$('#res').addClass("nText");
 
@@ -112,7 +112,7 @@ var city = $('#city').val(); // get text value
 		|| condition == "Moderate or heavy sleet" || condition == "Light rain shower" || condition == "Moderate or heavy rain shower" 
 		|| condition == "Torrential rain shower" || condition == "Light sleet showers" || condition == "Moderate or heavy sleet showers")
 		{
-			// rainy night
+			// rainy day
 			$('.container-fluid').removeClass().addClass("container-fluid d-flex dRain");
 			$('#res').addClass("nText");
 
@@ -121,7 +121,7 @@ var city = $('#city').val(); // get text value
 		|| condition == "Patchy light snow with thunder" || condition == "Moderate or heavy snow with thunder")
 		{
 			
-			// mist night
+			// thunder 
 			$('.container-fluid').removeClass().addClass("container-fluid d-flex dThunder");
 			$('#res').addClass("nText");
 
